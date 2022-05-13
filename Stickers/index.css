@@ -1,0 +1,37 @@
+body {
+    background: white;
+    border: 2px black solid;
+    text-align: center;
+}
+
+.sticker {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 5px;
+    background: linear-gradient(red, magenta);
+    border-radius: 20px;
+    padding: 5px;
+   
+}
+
+#web{
+
+    font-size:40px;
+    font-family: Impact;
+    text-shadow: 2px 2px grey;
+    background: radial-gradient(yellow, red, orange);
+    padding: 30px;
+   border-radius: 100px;
+}
+
+#coding {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#coding h4 {
+    background: linear-gradient(red,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
