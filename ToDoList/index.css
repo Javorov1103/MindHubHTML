@@ -64,6 +64,7 @@ body {
 
 .todo-wrapper input {
     padding: 3px 6px;
+    width: 400px;
 }
 
 .todo-wrapper form {
