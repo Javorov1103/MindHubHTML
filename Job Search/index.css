@@ -1,0 +1,26 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+ul, div, nav, label {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 80px 50px;
+}
+
+nav {
+    width: 70%;
+}
+
+ul {
+    background-color: #384452;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    padding: 25px;
+}
