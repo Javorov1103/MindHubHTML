@@ -1,6 +1,9 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
 
-ul, div, nav, label {
+ul,
+div,
+nav,
+label {
     margin: 0;
     padding: 0;
 }
@@ -24,3 +27,21 @@ li {
     list-style: none;
     padding: 25px;
 }
+
+a {
+    color: #8baec2;
+    margin-left: 15px;
+    /* cursor: pointer; */
+    text-decoration: none;
+}
+
+a::before {
+    font-family: FontAwesome, serif;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+li:first-child a::before {
+    content: "\f002";
+}
+
