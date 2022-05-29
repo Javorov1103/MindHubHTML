@@ -45,3 +45,23 @@ li:first-child a::before {
     content: "\f002";
 }
 
+li:nth-child(2) a::before {
+    content: "\f02c";
+}
+
+li:nth-child(3) a::before {
+    content: "\f041";
+}
+
+li:nth-child(4) a::before {
+    content: "\f007";
+}
+
+li:hover {
+    background-color: #3BBC96;
+}
+
+li:hover a {
+    color: white;
+}
+
