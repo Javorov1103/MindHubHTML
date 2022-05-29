@@ -65,3 +65,17 @@ li:hover a {
     color: white;
 }
 
+main {
+    background-color: #EEEEEE;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label {
+    color: #374574;
+    display: block;
+    font-weight: bold;
+    width: 210px;
+}
+
