@@ -2,19 +2,19 @@
     display: table;
     border-spacing: 1px;
     background: black;
-    border: 5px solid black;
+    border: 1px solid black;
 }
 
 .row {
     display: table-row;
-    width: 140px;
+    width: 10px;
     
 }
 .pixel {
     display: table-cell;
     background-color: white;
-    width: 140px;
-    height: 140px;
+    width: 10px;
+    height: 10px;
 }
 
 .pen {
