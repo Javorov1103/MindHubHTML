@@ -17,20 +17,17 @@ function attachEventsListeners() {
         inputHours.value = hours;
         inputMins.value = minutes;
         inputSeconds.value = seconds;
-        
+    }
+
+    buttonHours.onclick = () => {
+        var hours = inputHours.value;
+        var days = hours/24;
+        var minutes = hours * 60;
+        var seconds = minutes*60;
+        inputDays.value = days;
+        inputMins.value = minutes;
+        inputSeconds.value = seconds;
     }
 }
 
-function convertDays(days) {
 
-}
-
-function convertHours(hours) {
-
-}
-function convertMinutes(minutes) {
-
-}
-function convertSeconds(seconds) {
-
-}
