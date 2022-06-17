@@ -48,10 +48,20 @@
   <div id="notification"></div>
 </div>
 <script>
+    
   function notify(message) {
     var divElement = document.getElementById("notification");
-    divElement.style.display = 'block'
+    divElement.style.display = 'block';
     divElement.innerText = message;
+
+    setTimeout(()=>{
+        clearAndHideButton(divElement)
+    }, 2000);
+  }
+
+  function clearAndHideButton(div) {
+    div.style.display = 'none';
+    div.innerText = '';
   }
 </script>
 </body>
